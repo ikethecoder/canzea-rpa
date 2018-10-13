@@ -8,7 +8,7 @@
 
 ```
 resources:
-  - service_discovery_service:
+- service_discovery_service:
       aws_polly:
         Name: aws_polly
         Address: "${d}{var.compute_instance.${instance.name}.privateIp}"
@@ -26,7 +26,7 @@ resources:
         environment: ${environment.id}
         segment: ${segment.id}
         type: console
-        secure: "https://${environment.id}.${es.fqdn}:4022"
+        secure: "http://${environment.id}.${es.fqdn}:4022"
 
 ```
 
