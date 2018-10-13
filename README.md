@@ -15,6 +15,8 @@ docker run -ti polly-python python speaking/server.py
 - configure resources for Consul and for creating the endpoints that appear on the Canzea Launcher page
 - Go to: http://intg.186527.xyz:4022/
 
+Testing: http://intg.186527.xyz:4022/read?voiceId=Salli&text=Hackathon%20Day&outputFormat=ogg_vorbis
+
 ```
 resources:
 - service_discovery_service:
