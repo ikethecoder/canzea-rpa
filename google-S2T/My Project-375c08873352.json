@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sapient-mote-219317",
+  "private_key_id": "375c08873352d3dd2104ebf01ecaff9c8256fdce",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGG4IZ5XY/cZ29\n58WA5yCl679MAmyeb9Rwc2Xb8hhY2JpW+dMhDcQ57LQKIjfK8m6k7txPNUjk5xLI\nxZy+cdLqQq5Bos+HcqlLjhiCw1VUSM+wvTOm82qVosD6LtVsp2EBiXuVJPzl2YBB\nhxf/YALP/6BN3/3dR8frvgufKwvtDjOKuZP6TSavMcGyWmEGLTVIPl87i/UxsY+W\nmwKfJ5z5yc3R7RhcMAq+lG9vB9Le25lslTQQabHlu/gm2o1qshmXewNJ2TKNilUr\nguTymQJTSvqWb1jEOGgbkO8HNE67Gp5v1rLB8pLN5Uk8QLjG7nOFc2cyEx5iT4Zg\n/XDqIojJAgMBAAECggEAXevDugBKF9kHJnX/8lVhaphCWMhbc5/kES38kBKOTWzf\nezW0zVpn+ehJEPbZCav3HdWqeBj0hqUwiCP75GQ1UN+tGqwUBIytS4dCApiV10Av\nywRgPRnxIaEIKXRTtdAC0wY5o2NmTJhZ0Hc6PtXnb3IrL1Bu3F5AH3k5rEvtuwQm\n6IonGXLSRaJaXC5lvY+91PikD+Q/hYJLzkME53ALJkkfYrpj0PeH2iVabOaxyodm\nFgHGv7UfPZEnntpCH+N8A+UKXrM3mXoJsLwawv3xq+E2N0oz6su249PzXPV8ruz5\n6d+7vBiLGYWtPPVkzwqwlZo0yPNiXzpJu9PctLTKuwKBgQDzZAyl0WMuoPLsQzOo\nf+bSvaa+Q9VaB70z1wlUXF/ZuJaMIwXq5OncSROMuUeMrzo3wLHvJchZg7UB7DfL\nB3ckKh69L7o3kw710xtjDiuCRLIxjT2Ez/8PEiJKTXvuFlGF6wIXA3tXTV7li2JG\n+T/FTlxY+S3/zcWxgyiSimdcIwKBgQDQXuRVov4ZlgD5EJti3VxTvvQU/UwJBmMI\n4G7dM1589Un/9IkSXz/hQD0XgWbKFFDCPtAFILbZrl2MIIa+7Qcs4gqMxdtRCm2R\n+DlnfiF0Og9rH8I6irfl8Pu6XecD2mXDhv8JMDpb0f0wq/+W0sH+EozlNKE3bMx/\nCErG+lJQIwKBgGok1tM11sBOFsLsp8mzRdHgPai6YoAp4dyKyhnNU0vbEWS6HWmM\nPWUBRZJYdximjogj9DVsT8yiAL1+6/ISJmZSLCeredWkv6B7WXVAh77/AItVol+a\nagyDhwrKceKqPxFdJQMuVIsFRf5rZAe5yZLdkq6GtQXbEn1Qys/lph/rAoGBAKMp\nivab2QlD8qMVI/e4inFxV0OQTJfMjoQG6gkADn8eu8FXRHZEa4sAeFYNl+WpHsvb\nz5wUT9oItWvilGCwziuRHN26mM/OsJnam2i01ZFjXWtuxPJ+aR3/I759hUX5IDKJ\nZO9W+nun5PDV3h/GDO3crMNWAN+brE3Uumkw3n+tAoGATTBjj/7mGCR19DQamAAr\nDwYduauERcD07ViTASDAQl0wBHvFatBKRtBr9yQbZbvGnKMUZNcuLWd3tIKNex8s\nWypHfoMy0jJa4A6XEtHCq0lN4zKzARzRk8hatrlCRQ/Zk0Ho4d3Yc3H+qnDowP/Z\n8/MQ/xRvSf7gud535qPcNGg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "canzea-ops@sapient-mote-219317.iam.gserviceaccount.com",
+  "client_id": "114021501812164938308",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/canzea-ops%40sapient-mote-219317.iam.gserviceaccount.com"
+}
