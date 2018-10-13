@@ -58,6 +58,8 @@ RUN \
     echo 'source $HOME/aws/env/bin/activate' >> .bashrc && \
     echo 'complete -C aws_completer aws' >> .bashrc
 
+RUN pip install boto3
+
 USER root
 
 RUN mkdir speaking
