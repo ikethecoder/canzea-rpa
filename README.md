@@ -4,7 +4,7 @@
 
 - containerize
 - register secrets on Vault: https://vault.186527.xyz/ui/vault/secrets/secret/show/providers/aws/live
-- deploy: voice/aws_polly to intg-app
+- deploy: voice/aws_polly to intg-app (Canzea Helper - Building Block Install page)
 - configure resources for Consul and for creating the endpoints that appear on the Canzea Launcher page
 - Go to: http://intg.186527.xyz:4022/
 
