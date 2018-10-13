@@ -1,0 +1,24 @@
+intents:
+  - greet
+  - order
+  - confirm
+  - goodbye
+
+actions:
+- utter_greet
+- utter_order
+- utter_confirm
+- utter_goodbye
+
+templates:
+  utter_greet:
+  - text: "Hello, what can I get you?"
+
+  utter_order:
+  - text: "ok, 1 large peperoni pizza?"
+
+  utter_confirm:
+  - text: "ok, thanks you, it will be ready in 20 minutes for pickup"
+
+  utter_goodbye:
+    - text: "thanks for ordering from canzea pizza"
