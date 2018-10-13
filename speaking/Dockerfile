@@ -68,3 +68,5 @@ ADD index.html /home/aws/speaking/index.html
 RUN chown -R aws:aws /home/aws/speaking
 
 USER aws
+
+
