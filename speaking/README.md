@@ -5,7 +5,7 @@
 ```
 docker build --tag rpa-speaking .
 
-docker run -ti -v `pwd`:/home/aws/.aws -e AWS_DEFAULT_REGION=us-west-1 -p 8000:8000 polly-python --host=0.0.0.0
+docker run -ti -v `pwd`:/home/aws/.aws -e AWS_DEFAULT_REGION=us-west-1 -p 8000:8000 polly-python python speaking/server.py --host=0.0.0.0
 
 ```
 
