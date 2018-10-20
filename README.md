@@ -57,3 +57,20 @@ $ curl -XPOST http://intg.186527.xyz:5005/conversations/default/respond -d '{"qu
 $ curl http://intg.186527.xyz:5005/conversations/default/tracker
 {"events":[{"confidence":null,"event":"action","name":"action_listen","policy":null,"timestamp":1539468714.278097},{"event":"user","input_channel":null,"parse_data":{"entities":[],"intent":{"confidence":1.0,"name":"greet"},"text":"hello"},"text":"hello","timestamp":1539468714.278663},{"confidence":1.0,"event":"action","name":"utter_greet","policy":"policy_1_MemoizationPolicy","timestamp":1539468714.595871},{"data":{"attachment":null,"buttons":null,"elements":null},"event":"bot","text":"Hello, what can I get you?","timestamp":1539468714.595915},{"confidence":1.0,"event":"action","name":"action_listen","policy":"policy_1_MemoizationPolicy","timestamp":1539468714.599927},{"event":"user","input_channel":null,"parse_data":{"entities":[],"intent":{"confidence":1.0,"name":null},"text":"Can I get 1 pepperoni pizza?"},"text":"Can I get 1 pepperoni pizza?","timestamp":1539468741.096052},{"confidence":1.0,"event":"action","name":"action_default_fallback","policy":"policy_0_FallbackPolicy","timestamp":1539468741.103831},{"event":"rewind","timestamp":1539468741.103843},{"confidence":1.0,"event":"action","name":"action_listen","policy":"policy_1_MemoizationPolicy","timestamp":1539468741.108185},{"event":"user","input_channel":null,"parse_data":{"entities":[],"intent":{"confidence":1.0,"name":null},"text":"Can I get 1 pepperoni pizza?"},"text":"Can I get 1 pepperoni pizza?","timestamp":1539468774.311154},{"confidence":1.0,"event":"action","name":"action_default_fallback","policy":"policy_0_FallbackPolicy","timestamp":1539468774.316469},{"event":"rewind","timestamp":1539468774.31648},{"confidence":1.0,"event":"action","name":"action_listen","policy":"policy_1_MemoizationPolicy","timestamp":1539468774.320105}],"followup_action":null,"latest_event_time":1539468774.320105,"latest_input_channel":null,"latest_message":{"entities":[],"intent":{"confidence":1.0,"name":"greet"},"text":"hello"},"paused":false,"sender_id":"default","slots":{}}
 ```
+
+## Converting audio 
+
+docker pull jrottenberg/ffmpeg:3.4-alpine
+
+docker run --rm jrottenberg/ffmpeg:3.4-alpine -formats
+docker run --rm jrottenberg/ffmpeg:3.4-alpine -codecs
+
+docker run --rm -v $PWD:/tmp jrottenberg/ffmpeg:3.4-alpine  -i "http://intg.180145.xyz:4022/read?voiceId=Salli&text=Hacktoberfest%20at%20UBC&outputFormat=ogg_vorbis" /tmp/output.flac
+
+docker run --rm -v $PWD:/tmp jrottenberg/ffmpeg:3.4-alpine  -i /tmp/input.mp3 /tmp/output.wav
+
+docker run --rm -v $PWD:/tmp jrottenberg/ffmpeg:3.4-alpine  -i "http://intg.180145.xyz:4022/read?voiceId=Salli&text=Hello%20October&outputFormat=mp3" /tmp/output.flac
+
+Upload the generated output.flac to speect to text
+https://cloud.google.com/speech-to-text/
+
