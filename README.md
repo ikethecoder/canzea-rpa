@@ -16,12 +16,16 @@ access_key_id
 - register secrets on Vault: https://vault.186527.xyz/ui/vault/secrets/secret/show/providers/aws/live
 - deploy: voice/aws_polly to intg-app (Canzea Helper - Building Block Install page)
 - configure resources for Consul and for creating the endpoints that appear on the Canzea Launcher page
-- Go to: http://intg.186527.xyz:4022/
+- Go to: http://intg.184924.xyz:4022/
 
-Testing: http://intg.186527.xyz:4022/read?voiceId=Salli&text=Hackathon%20Day&outputFormat=ogg_vorbis
+Testing: http://intg.184924.xyz:4022/read?voiceId=Salli&text=Hackathon%20Day&outputFormat=ogg_vorbis
 
 ```
 resources:
+- vault_secret:
+      providers/aws/live:
+        secret_access_key: ""
+        access_key_id: ""
 - service_discovery_service:
       aws_polly:
         Name: aws_polly
